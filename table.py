@@ -2,19 +2,12 @@ names = ['abas', 'rusya', 'piro', 'gami']
 
 for el in names:
     print(el.title())
-# print(names[0].title())
-# print(names[1].title())
-# print(names[2].title())
-# print(names[3].title())
 
 message = "Warning, "
 
 for el in names:
     print(message + el.title())
-# print(message, names[0].title())
-# print(message, names[1].title())
-# print(message, names[2].title())
-# print(message, names[3].title())
+print(len(names))
 
 message = "Warning cancel"
 
@@ -24,7 +17,7 @@ names.append('kiki')
 
 for el in names:
     print(message, el.title())
-
+print(len(names))
 print("Warning again")
 
 message = "Sorry, "
